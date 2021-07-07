@@ -17,8 +17,19 @@ function draw() {
   background(220);
 
   fill(255);
-  strokeWeight(2);
+  strokeWeight(1);
   stroke(0);
+
+  for (let i = 0; i <= heightSelector.value; i++) {
+    for (let j = 0; j <= widthSelector.value; j++) {
+      rect(
+        j * tileSizeSelector.value,
+        i * tileSizeSelector.value,
+        tileSizeSelector.value,
+        tileSizeSelector.value
+      );
+    }
+  }
 }
 
 function resizeCanvasToInputs() {
