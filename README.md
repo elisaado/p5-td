@@ -10,7 +10,7 @@ A map is just a json file, with the following fields:
 
 - `width`: amount of tiles in a row as a `number`
 - `height`: amount of rows as a `number`
-- `tiles:`: `array` of _tile_
+- `tiles`: `array` of _tile_
 
 ### Tile
 
